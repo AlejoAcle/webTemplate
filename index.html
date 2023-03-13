@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Portfolio Website wih Typing Effect</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">Folio<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="#"></a>Home</li>
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Skills</li>
+          <li><a href="#"></a>Blog</li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </nav>
+
+    <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"></span></h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Hire me</button>
+          </div>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img
+              src="./IMAGES/pexels-dan-cristian-pădureț-1193743-removebg-preview.png"
+              id="splash"
+            />
+            <img
+              src="./IMAGES/pexels-matheus-bertelli-1906157-removebg-preview (1).png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings: ["coder", "youtuber", "designer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
